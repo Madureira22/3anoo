@@ -6,13 +6,13 @@
 }
 
 body {
-  background: #0a7a32;
+  background: #f9fafa;
   color: #fff;
 }
 
 /* HEADER */
 .top-bar {
-  background: #111;
+  background: #e20b0b;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -79,7 +79,8 @@ body {
 }
 
 .side-card {
-  background: #111;
+  background: #e90c0c;
+  color: #111;
   padding: 20px;
   min-height: 200px;
 }
@@ -91,7 +92,8 @@ body {
 
 /* SIDEBAR */
 .sidebar {
-  background: #0f8a3a;
+  background: #e00909;
+  color: #111;
   padding: 20px;
 }
 
