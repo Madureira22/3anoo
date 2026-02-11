@@ -10,7 +10,7 @@ body {
   color: #fff;
 }
 
-/* HEADER */
+
 .top-bar {
   background: #e20b0b;
   display: flex;
@@ -35,7 +35,7 @@ body {
   text-decoration: underline;
 }
 
-/* LAYOUT */
+
 .container {
   display: grid;
   grid-template-columns: 3fr 1fr;
@@ -43,7 +43,7 @@ body {
   padding: 30px;
 }
 
-/* HERO */
+
 .hero {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -51,7 +51,7 @@ body {
 }
 
 .hero-main {
-  background: url("https://images.unsplash.com/photo-1541872705-1f73c6400ec9") center/cover;
+  background: url("imagens/zema-romeu-romeu-zema.jpg") center/cover;
   min-height: 420px;
   padding: 25px;
   display: flex;
@@ -71,7 +71,7 @@ body {
   display: inline-block;
 }
 
-/* SIDE CARDS */
+
 .hero-side {
   display: flex;
   flex-direction: column;
@@ -90,7 +90,7 @@ body {
   font-size: 18px;
 }
 
-/* SIDEBAR */
+
 .sidebar {
   background: #e00909;
   color: #111;
@@ -110,7 +110,7 @@ body {
   font-size: 14px;
 }
 
-/* RESPONSIVO */
+
 @media (max-width: 900px) {
   .container {
     grid-template-columns: 1fr;
