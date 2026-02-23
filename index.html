@@ -1,71 +1,146 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TechCrunch Clone</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Treehugger - Layout</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f5f5f5;
+      font-family: Georgia, serif;
+    }
+
+    .top-bar {
+      border-bottom: 3px solid #9fd3c7;
+      background: #ffffff;
+    }
+
+    .logo {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .nav-link {
+      color: #333 !important;
+      font-weight: 500;
+    }
+
+    .nav-link:hover {
+      color: #2a9d8f !important;
+    }
+
+    .hero-img {
+      border-radius: 10px;
+      width: 100%;
+      height: auto;
+    }
+
+    .article-title {
+      font-size: 2.5rem;
+      margin-top: 1rem;
+    }
+
+    .article-subtitle {
+      font-size: 1.1rem;
+      color: #555;
+    }
+
+    .sidebar {
+      background: #ffffff;
+      padding: 1.5rem;
+      border-radius: 10px;
+    }
+
+    .sidebar h5 {
+      background-color: #9fd3c7;
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      display: inline-block;
+    }
+
+    .sidebar a {
+      text-decoration: none;
+      color: #333;
+      display: block;
+      margin-bottom: 1rem;
+      font-weight: 500;
+    }
+
+    .sidebar a:hover {
+      color: #2a9d8f;
+    }
+
+    footer {
+      margin-top: 3rem;
+      padding: 2rem 0;
+      background: #ffffff;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
 </head>
 <body>
 
   
   <header class="top-bar">
-    <div class="logo">G1 Minas Gerais</div>
-    <nav>
-      <a href="#">Latest</a>
-      <a href="#">Startups</a>
-      <a href="#">Venture</a>
-      <a href="#">Apple</a>
-      <a href="#">Security</a>
-      <a href="#">AI</a>
-      <a href="#">Events</a>
-    </nav>
+    <div class="container py-3">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="logo">DedéBinoides</div>
+        <nav class="d-none d-md-block">
+          <ul class="nav">
+            <li class="nav-item"><a class="nav-link" href="#">ice</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">dry</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">crumble</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Skank</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">flor</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">colombia</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">fresh frozen</a></li>
+            <li class="nav-item"><a class="nav-link" href="prensado.html">prensado</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
   </header>
 
+  
+  <div class="container my-5">
+    <div class="row">
+      
+      
+      <div class="col-lg-8">
+        <img src="imagens/ativi.makon.webp" class="hero-img" alt="Imagem principal">
 
-  <main class="container">
-    <section class="hero">
-      <div class="hero-main">
-        <span class="tag">Romeu Zema e avanço tecnologico</span>
-        <h1> Governador de Minas fala sobre tecnologia avançada</h1>
+        <h1 class="article-title">
+          O uso do cannabis pode ser usado para fins medicinais
+        </h1>
+
+        <p class="article-subtitle">
+         Não é indicado para todos, apenas para pessoas com receitas médicas.
+        </p>
+
+        <p><strong>Bárbara Arranz</strong></p>
       </div>
 
-      <aside class="hero-side">
-        <div class="side-card">
-          <span class="tag">MEDIA & ENTRETENIMENTO</span>
-          <h3>O avanço da IA em empresas e escolas esta aumentando gradualmente</h3>
+      
+      <div class="col-lg-4">
+        <div class="sidebar">
+          <h5>Benefícios do tratamento</h5>
+          <div class="mt-3">
+            <a href="#">Controle de crises epiléticas</a>
+            <a href="#">Redução da dor crônica</a>
+            <a href="#">Auxílio na ansiedade</a>
+            <a href="#">Controle de náuses e vômitos</a>
+            <a href="#">Melhora do sono</a>
+          </div>
         </div>
+      </div>
 
-        <div class="side-card">
-          <span class="tag">MEDIA & ENTRETENIMENTO</span>
-          <h3>Avanço tecnologico nas escolas</h3>
-        </div>
-      </aside>
-    </section>
+    </div>
+  </div>
 
-    
-    <aside class="sidebar">
-      <h2>Top Headlines</h2>
-      <ul>
-        <li>San Francisco’s pro-billionaire march draws dozens</li>
-        <li>New York lawmakers propose pause on new data centers</li>
-        <li>‘Industry’ season 4 captures tech fraud perfectly</li>
-        <li>Benchmark raises $225M to double down on Cerebras</li>
-        <li>Brands make bold AI plays in Super Bowl ads</li>
-      </ul>
-    </aside>
-  </main>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
